@@ -22,7 +22,7 @@ const Inventory = () => {
 
   return (
     <div className="App">
-      <h1>Inventory</h1>
+      <h1>Inventory!</h1>
       {!inventory.length ? (
         <DonutSpinner />
       ) : (
